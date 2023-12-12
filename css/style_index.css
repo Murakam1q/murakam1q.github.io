@@ -144,7 +144,7 @@ nav ul {
     flex-direction: row;
 }
 
-nav ul li {
+nav ul li a {
     color: var(--f-2-f-2-f-2, #F2F2F2);
     font-family: Grtsk Peta;
     font-size: 12px;
@@ -153,6 +153,7 @@ nav ul li {
     line-height: 20px;
     letter-spacing: -0.24px;
     margin-right: 26px;
+    text-decoration: none;
 }
 
 .header__container {
@@ -182,6 +183,17 @@ nav ul li {
     margin-left: 35px;
 }
 
+.header__right-box p a {
+    color: var(--f-2-f-2-f-2, #F2F2F2);
+    font-family: Grtsk Peta;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-decoration: none;
+}
+
 .header__location-box {
     display: flex;
     justify-self: center;
@@ -198,11 +210,11 @@ nav ul li {
 }
 
 
-.header__nav-item:hover {
+.header__nav-item a:hover {
     color: #EB5757;
 }
 
-.header__delivery-text:hover {
+.header__delivery-text a:hover {
     color: #EB5757;
 }
 
@@ -218,20 +230,24 @@ nav ul li {
     color: #EB5757;
 }
 
+.nav__linkout {
+    text-decoration: none;
+}
 
-.nav__button p:hover {
+
+.nav__button p a:hover {
     color: #EB5757;
 }
 
-.choose-section__link:hover{
+.choose-section__link:hover {
     color: #EB5757;
 }
 
-.choose-section__link-danger:hover{
+.choose-section__link-danger:hover {
     color: #ff0000;
 }
 
-.header__text {
+.header__text a {
     color: var(--f-2-f-2-f-2, #F2F2F2);
     font-family: Grtsk Peta;
     font-size: 12px;
@@ -239,6 +255,7 @@ nav ul li {
     font-weight: 500;
     line-height: 20px;
     letter-spacing: -0.24px;
+    text-decoration: none;
 }
 
 .header__right-box img {
@@ -295,7 +312,9 @@ nav ul li {
     align-items: center;
 }
 
-.nav__user-type ul li {
+
+
+.nav__user-type ul li a {
     color: #000;
     font-family: Grtsk Peta;
     font-size: 14px;
@@ -309,11 +328,21 @@ nav ul li {
     margin-right: 25px;
 }
 
+.new-items-list ul li a {
+    text-decoration: none;
+}
+
 .nav__link-underline {
     text-underline-offset: 10px;
     text-decoration-thickness: 2px;
     text-decoration-color: #000;
     color: #000;
+    font-family: Grtsk Peta;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.28px;
 }
 
 .nav__button {
@@ -329,7 +358,7 @@ nav ul li {
     height: 24px;
 }
 
-.nav__button p {
+.nav__button p a {
     margin-top: 5px;
     color: #000;
     text-align: center;
@@ -340,6 +369,7 @@ nav ul li {
     line-height: 10px;
     letter-spacing: 0.16px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .nav__buttons {
@@ -641,6 +671,7 @@ nav ul li {
 }
 
 
+
 .blog-selection {
     height: 645px;
     display: flex;
@@ -679,6 +710,10 @@ nav ul li {
 }
 
 .blog-selection__content {
+    color: #fff;
+}
+
+.blog-selection__link u {
     color: #fff;
 }
 
@@ -756,7 +791,7 @@ nav ul li {
     letter-spacing: -0.32px;
 }
 
-.discounts__button:hover{
+.discounts__button:hover {
     background-color: #EB5757;
     color: #fff;
 }
@@ -881,12 +916,21 @@ footer {
     margin-top: 31px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
-.footer__list ul li p {
+.footer__list ul li a {
     font-size: 12px;
     margin-bottom: 20px;
     color: #bdbdbd;
+}
+
+.footer__contact__title:hover {
+    color: #EB5757;
+}
+
+.footer__list ul li a:hover {
+    color: #EB5757;
 }
 
 .footer-delimiter {
@@ -935,6 +979,11 @@ input::placeholder {
     font-weight: 500;
     line-height: 25px;
     letter-spacing: -0.32px;
+    border: none;
+}
+
+input {
+    border: none;
 }
 
 .footer__input-email {
@@ -954,6 +1003,19 @@ input::placeholder {
     border: none;
 }
 
+.blog-selection__link u:hover {
+    color: #EB5757;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__input-email:focus {
+    outline: none;
+}
+
 .footer__contact__text {
     color: var(--bdbdbd, #BDBDBD);
     font-family: Grtsk Peta;
@@ -961,6 +1023,7 @@ input::placeholder {
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+    text-decoration: none;
 }
 
 .footer__contact__title {
@@ -971,10 +1034,17 @@ input::placeholder {
     font-weight: 500;
     line-height: normal;
     justify-self: flex-start;
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 
 @media(min-width:480px) and (max-width:1600px) {
+
+
 
 
     .slider-container {

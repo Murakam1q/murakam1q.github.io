@@ -6,7 +6,7 @@
         flex-direction: column;
     }
 
-    .slider-container{
+    .slider-container {
         display: none;
     }
 
@@ -55,7 +55,7 @@
     }
 
     .nav-mobile {
-        max-width: 380px;
+        max-width: 320px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -76,20 +76,23 @@
     }
 
     .nav-mobile__button-group-left .nav-mobile__icon {
-        margin-left: 20px;
+        margin-left: 10px;
+
     }
 
     .nav-mobile__button-group-right .nav-mobile__icon {
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     .nav-mobile__menu {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 380px;
+        width: 320px;
         justify-self: center;
     }
+
+
 
 
     .mobile-usertype {
@@ -97,7 +100,7 @@
         align-items: center;
         justify-content: center;
         display: flex;
-        max-width: 380px;
+        max-width: 320px;
 
     }
 
@@ -126,7 +129,7 @@
     .mobile-usertype ul {
         display: flex;
         flex-direction: row;
-        gap: 69px;
+        gap: 50px;
 
     }
 
@@ -163,18 +166,18 @@
 
     .popular-mobile {
         display: flex;
-        height: 380px;
+        height: 320px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        max-width: 350px;
+        max-width: 320px;
     }
 
     .popular-mobile__item-box {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        width: 380px;
+        width: 320px;
         align-items: center;
     }
 
@@ -184,7 +187,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 350px;
+        width: 320px;
     }
 
     .popular-mobile__burger {
@@ -212,7 +215,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 100%;
+        width: 320px;
         gap: 20px;
         margin-top: 20px;
         margin-bottom: 60px;
@@ -228,13 +231,13 @@
 
     .promotion-mobile__card-first {
         background-image: url(/image/mobile-promo-1.png);
-        width: 375px;
+        width: 320px;
         height: 200px;
     }
 
     .promotion-mobile__card-second {
         background-image: url(/image/mobile-promo2.png);
-        width: 375px;
+        width: 320px;
         height: 200px;
     }
 
@@ -249,7 +252,7 @@
     .promotion-mobile__text {
         width: auto;
         background-color: #000;
-        width: 375px;
+        width: 320px;
         height: 40px;
         display: flex;
         justify-content: center;
@@ -440,7 +443,7 @@
 
     .blog-section-mobile__image {
         background-image: url(/image/blog-section-image-mobiel.png);
-        width: 372px;
+        width: 320px;
         height: 290px;
         display: flex;
         justify-content: center;
@@ -457,7 +460,7 @@
         color: var(--828282, #828282);
         text-align: center;
         font-family: Grtsk Peta;
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 500;
         line-height: 25px;
@@ -509,10 +512,12 @@
 
     .discounts-mobile__card-first {
         background-image: url(/image/discount-mobile1.png);
+        width: 320px;
     }
 
     .discounts-mobile__card-second {
         background-image: url(/image/discount-mobile2.png);
+        width: 320px;
     }
 
     .discounts-mobile__logo {
@@ -530,8 +535,8 @@
         margin-bottom: 5px;
         margin-top: 15px;
     }
-    
-    .slider-container-tablet{
+
+    .slider-container-tablet {
         display: none;
     }
 
@@ -561,7 +566,7 @@
         font-weight: 500;
         line-height: 25px;
         letter-spacing: -0.32px;
-    
+
     }
 
     .discounts-mobile__title-second {
@@ -608,7 +613,7 @@
     .footer-mobile {
         display: flex;
         align-items: center;
-        width: 380px;
+        width: 320px;
         flex-direction: column;
     }
 
@@ -657,6 +662,10 @@
         align-items: center;
         flex-direction: row;
         gap: 10px;
+    }
+
+    .footer-mobile__image img{
+        width: 150px;
     }
 
     .footer-mobile__textbox__title {
@@ -709,7 +718,7 @@
     }
 
     .footer-mobile__hrstyle {
-        width: 380px;
+        width: 320px;
     }
 
     .footer-mobile__listtext li {
