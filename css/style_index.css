@@ -133,6 +133,24 @@ header {
     justify-content: center;
 }
 
+.scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+  
+}
+
+.scrollToTopBtn:hover {
+    background-color: #EB5757
+}
 
 h2 {
     font-size: 32px;
