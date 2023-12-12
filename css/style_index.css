@@ -91,6 +91,24 @@
 
 .discounts-mobile {
     display: none;
+
+}
+
+select {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    width: auto;
+    height: 50px;
+    background-color: #000;
+    font-family: 'Grtsk Peta', normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+select:focus {
+    outline: none;
 }
 
 .footer-mobile {
@@ -218,11 +236,11 @@ nav ul li a {
     color: #EB5757;
 }
 
-.header__payment-text:hover {
+.header__payment-text a:hover {
     color: #EB5757;
 }
 
-.header__return-text:hover {
+.header__return-text a:hover {
     color: #EB5757;
 }
 
